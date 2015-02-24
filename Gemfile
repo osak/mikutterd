@@ -33,4 +33,7 @@ group :plugin do
   Dir.glob(File.expand_path("~/.mikutter/plugin/*/Gemfile")){ |path|
     eval File.open(path).read
   }
+  Dir.glob(File.join(__dir__, "plugin", "*", "Gemfile")){ |path|
+    eval File.open(path).read
+  }
 end
