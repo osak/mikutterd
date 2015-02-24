@@ -8,7 +8,7 @@ Plugin.create(:hatch) do
     }
   }
 
-  on_destroy do
+  on_unload do
     @main.instance_eval {
       EventMachine.stop_server @server
     }
