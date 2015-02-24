@@ -1,7 +1,7 @@
 module HatchServer
   def post_init
     send_data "Welcome to underground...\n"
-    @context = BasicObject.new
+    @context = Object.new
   end
 
   def receive_data(data)
