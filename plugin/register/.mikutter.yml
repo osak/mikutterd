@@ -1,0 +1,10 @@
+---
+slug: :register
+depends:
+  mikutter: '3.1'
+  plugin:
+    - core
+version: '1.0'
+author: osa_k
+name: Register
+description: Register account to mikutterd
