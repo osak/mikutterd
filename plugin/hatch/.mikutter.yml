@@ -1,0 +1,10 @@
+---
+slug: :hatch
+depends:
+  mikutter: '3.1'
+  plugin:
+    - core
+version: '1.0'
+author: osa_k
+name: Hatch
+description: Maintainance hatch
